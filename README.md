@@ -1,4 +1,4 @@
-# fungi-image-processing-benchmark
+# **🧫 TemFungAI | Detecção de Fungos com Processamento de Imagens**
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
@@ -6,10 +6,11 @@
 
 ---
 
+Este repositório contém o projeto desenvolvido para a disciplina de Processamento de Imagens do curso de Sistemas de Informação. O objetivo é aplicar técnicas de pré-processamento em imagens de fungos e avaliar o impacto dessas transformações na performance de modelos de aprendizado de máquina.
 
-## 📖 Sobre o Projeto
+A proposta é comparar os resultados obtidos com e sem modificações nas imagens, observando se os ajustes visuais (como filtros, realce, segmentação, entre outros) contribuem para melhorar a acurácia e outros indicadores de desempenho dos classificadores.
 
-O processamento de imagens, é uma área da computação que aplica algoritmos para analisar e extrair informações úteis de imagens. Este projeto tem como objetivo central investigar e quantificar o impacto de técnicas de processamento na acurácia da classificação de imagens de fungos. 
+
 
 
 ---
