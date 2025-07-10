@@ -192,3 +192,8 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+fungi_venv
+Miniconda3-latest-Linux-x86_64.sh
+*.sh
+*.exe
+rapids-env/

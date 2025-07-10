@@ -1,0 +1,11 @@
+opencv-python
+numpy
+scikit-learn
+pandas
+matplotlib
+seaborn
+tensorflow[and-cuda]
+ipykernel
+scikit-image
+transformers
+cuml
