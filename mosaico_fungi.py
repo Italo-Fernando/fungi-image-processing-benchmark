@@ -1,8 +1,10 @@
 from PIL import Image
+import cv2
+import numpy as np
 
 paths = [
-    './defungi_dataset/H6/H6_4b_4.jpg', './defungi_dataset/H3/H3_3a_10.jpg', './defungi_dataset/H5/H5_104a_2.jpg', './defungi_dataset/H6/H6_52a_13.jpg', 
-    './defungi_dataset/H3/H3_25a_2.jpg', './defungi_dataset/H6/H6_56b_2.jpg', './defungi_dataset/H1/H1_116b_11.jpg' , './defungi_dataset/H5/H5_36a_4.jpg'
+    './defungi_dataset/BBH/H6_4b_4.jpg', './defungi_dataset/GMA/H3_3a_10.jpg', './defungi_dataset/SHC/H5_104a_2.jpg', './defungi_dataset/BBH/H6_52a_13.jpg', 
+    './defungi_dataset/GMA/H3_25a_2.jpg', './defungi_dataset/BBH/H6_56b_2.jpg', './defungi_dataset/TSH/H1_116b_11.jpg' , './defungi_dataset/SHC/H5_36a_4.jpg'
 ]
 
 size = 250
@@ -24,3 +26,7 @@ for i in range(nrows):
         collage.paste(image, box=img_pos)
 
 collage.save('mosaico.jpg')
+
+collage_cv = cv2.cvtColor(np.array(collage), cv2.COLOR_RGB2BGR)
+inverted_image = cv2.bitwise_not(collage_cv)
+cv2.imwrite('mosaico_invertido.jpg', inverted_image)
