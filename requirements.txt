@@ -7,5 +7,5 @@ seaborn
 #tensorflow[and-cuda]
 ipykernel
 scikit-image
-transformers
+#transformers
 #cuml
