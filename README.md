@@ -6,6 +6,8 @@
 
 ---
 
+![Mosaico de fungos com inversão de cores](./mosaico_invertido.jpg)
+
 Este repositório contém o projeto desenvolvido para a disciplina de Processamento de Imagens do curso de Sistemas de Informação. O objetivo é aplicar técnicas de pré-processamento em imagens de fungos e avaliar o impacto dessas transformações na performance de modelos de aprendizado de máquina.
 
 A proposta é comparar os resultados obtidos com e sem modificações nas imagens, observando se os ajustes visuais (como filtros, realce, segmentação, entre outros) contribuem para melhorar a acurácia e outros indicadores de desempenho dos classificadores.
